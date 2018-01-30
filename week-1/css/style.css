@@ -1,0 +1,91 @@
+body{
+  background-image: url("../img/skinning.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  font-family: 'Bitter', serif;
+}
+
+.title{
+  font-variant: small-caps;
+  font-size: 2em;
+  font-family: Times, serif;
+}
+
+
+.hero-img {
+    height: 100vh;
+    background-image: url("../img/lodgepole.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    border-bottom: 20px solid rgba(255,255,255,.5);
+}
+
+.title h1{
+      background-color: rgba(120, 120, 120, 0.7);
+      text-shadow: 2px 2px 4px #000000;
+      font-family:'Rammetto One', serif;
+}
+
+.title {
+    position: sticky;
+    top: 20%;
+    left: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(120, 120, 120, 0.7);
+    border: 7px solid rgba(255,255,255,.5);
+}
+@media screen and (max-width:900px){
+  .title{
+    font-size: 1em;
+  }
+}
+
+.content{
+  height:120vh;
+  display: block;
+}
+.side-by-side{
+  width:60%;
+  display: flex;
+  float:left;
+padding:5%;
+margin:5px;
+margin-top:5%;
+max-width: 500px;
+background-color: rgba(0,0,0,.5);
+color: rgba(255,255,255,.75);
+border:20px solid black;
+}
+
+@media screen and (max-width: 1407px){
+  .side-by-side{
+    min-width:80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+  }
+}
+
+.footer{
+  height:100vh;
+  background-image: url(../img/dahlia.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border:7px solid rgba(255,255,255,.5);
+}
+
+.content .link{
+  min-width: 100%;
+  margin-top: 10%;
+text-align: center;
+}
+
+.footer .fa{
+  min-width: 100%;
+  margin-top: 10%;
+text-align: center;
+}
