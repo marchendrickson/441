@@ -6,5 +6,5 @@ I have been absent from this class for the past two weeks. I have been finishing
 
 For some reason I was having a hard time with the basics of JavaScript when we were just printing to the console, but now that we have started working with HTML it seems conceptually much easier for me.
 
-I had a little bit of a problem with the final step of appending the whole sheet with my changes, but through trial and error as well as looking over some other material I was able to find a solution.
+I had a little bit of a problem with the final step of appending the whole sheet with my changes, but through trial and error as well as looking over some other material I was able to find a solution.I could not find a solution for centering my image and my link, I tried all the css I know like margin-left & right:auto, text-align, align-content but could not figure it out for the life of me. 
 
